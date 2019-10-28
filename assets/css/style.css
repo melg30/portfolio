@@ -1,7 +1,7 @@
 
 
 body {
-    background-image: url("../images/memphis-mini.png");
+    background-image: url("../images/new_year_background.png");
     background-repeat: repeat-x repeat-y;
     margin: 0%;
     
@@ -18,6 +18,10 @@ a {
     
 }
 
+.name {
+    background-color: #4aaaa5;
+}
+
 a:hover{
     background-color: #4aaaa5;
   }
@@ -29,7 +33,7 @@ nav {
 }
 
 ul {
-    margin: 0;
+    margin-bottom: 20px;
     padding: 0;
     display: flex;
     text-align: right;
@@ -44,6 +48,16 @@ li {
 
 }
 
+img {
+    float: none;
+    padding: 15px;
+
+  }
+
+  .clearfix {
+    overflow: auto;
+  }
+
 .footer {
     background-color: #F1F1F1;
     text-align: center;
@@ -57,5 +71,26 @@ li {
   .container {
       max-width: 960px;
       margin: auto;
+      padding: 20px;
       background-color: #ffffff;
+      color: #777777;
+      border-style: ridge;
   }
+
+  html, body {
+    height: 100%;
+    margin: auto;
+  }
+  .content {
+    min-height: 100%;
+  }
+  .content-inside {
+    padding: 20px;
+    padding-bottom: 50px;
+  }
+  .footer {
+    height: 50px;
+    margin-top: -50px;
+    background-color: #666666;
+  }
+  
